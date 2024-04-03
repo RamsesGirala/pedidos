@@ -1,9 +1,12 @@
 package com.example.pedidos.model.entities;
 
 import jakarta.persistence.Entity;
-import lombok.Data;
+import lombok.*;
 
-@Data
+
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 public class Cliente extends Persona{
 }

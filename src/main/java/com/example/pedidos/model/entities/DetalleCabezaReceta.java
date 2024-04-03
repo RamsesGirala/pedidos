@@ -3,9 +3,12 @@ package com.example.pedidos.model.entities;
 import com.example.pedidos.model.entities.enums.UnidadDeMedida;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToOne;
-import lombok.Data;
+import lombok.*;
 
-@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Entity
 public class DetalleCabezaReceta extends Base{
 

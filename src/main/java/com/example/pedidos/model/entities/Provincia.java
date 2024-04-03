@@ -2,9 +2,12 @@ package com.example.pedidos.model.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToOne;
-import lombok.Data;
+import lombok.*;
 
-@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Entity
 public class Provincia extends Base{
 

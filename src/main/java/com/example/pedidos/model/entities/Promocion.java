@@ -1,11 +1,14 @@
 package com.example.pedidos.model.entities;
 
 import jakarta.persistence.Entity;
-import lombok.Data;
+import lombok.*;
 
 import java.time.LocalDate;
 
-@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Entity
 public class Promocion extends Base{
 
